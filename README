@@ -1,0 +1,8 @@
+**********
+RememberMe
+**********
+
+RememberMe is a simple Android app that gently reminds you what you're supposed to be doing where and when you're supposed to be doing it.
+
+ROADMAP:
+Initially only 1 screen for adding RememberMes (no list views!). Only timed reminders at first, then place later.
