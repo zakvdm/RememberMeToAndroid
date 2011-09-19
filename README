@@ -1,8 +1,17 @@
-**********
-RememberMe
-**********
+************
+RememberMeTo
+************
+With RememberMeTo, you can tell your phone:
+* Remember me to book my leave at work OR 
+* Remember me to phone grandpa tomorrow
 
-RememberMe is a simple Android app that gently reminds you what you're supposed to be doing where and when you're supposed to be doing it.
+RememberMeTo waits until the right time (or place) and then remembers you. It's the easiest way to never forget again. After all, why be reminded when you can be remembered?
 
 ROADMAP:
-Initially only 1 screen for adding RememberMes (no list views!). Only timed reminders at first, then place later.
+Initially only 1 screen for adding RememberMeTos (no list views!). Only timed remembers at first, then places later.
+
+IDEAS:
+Attach photos to a RememberMe.
+Attach a location.
+Record voice reminders.
+Integrate with Google calendar.

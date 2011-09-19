@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="application_name">RememberMe</string>
+
+    <!--  CREATE NEW REMEMEBER ME -->
+    <string name="remember_me">Remember me to </string>
+    <string name="ok">OK</string>   
+    
+    <!--  DATE/TIME SELECTION -->
+    <string name="when">When</string>
+    <string name="dateSliderTitle">Selected date</string> 
+</resources>

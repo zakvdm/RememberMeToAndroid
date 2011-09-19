@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_me"/>
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/label"/>
+    <Button 
+        android:id="@+id/whenButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry"
+        android:text="@string/when" />
+    <TextView 
+        android:id="@+id/selectedWhen"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whenButton" 
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/okButton"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectedWhen"
+        android:text="@string/ok" />
+        
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/remembermemeow1"
+               android:layout_below="@+id/okButton" android:layout_marginTop="10dp" android:id="@+id/kitty" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
