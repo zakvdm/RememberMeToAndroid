@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="application_name">RememberMe</string>
+    <string name="application_name">RememberMeTo</string>
 
     <!--  CREATE NEW REMEMEBER ME -->
-    <string name="remember_me">Remember me to </string>
+    <string name="remember_me_to">Remember me to</string>
     <string name="ok">OK</string>   
     
     <!--  DATE/TIME SELECTION -->

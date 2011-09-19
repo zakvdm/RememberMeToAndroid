@@ -12,7 +12,7 @@ import android.os.Bundle;
 
 public class RememberMeReceiver extends BroadcastReceiver {
 
-    public final static String THE_REMEMBER_ME_TEXT = "the_remember_me";
+    public final static String REMEMBER_ME_TO_TEXT = "remember_me_to_text";
 
     private static final int REMEMBER_ME_NOTIFICATION_ID = 0x1001;
     
@@ -20,7 +20,7 @@ public class RememberMeReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         try {
             Bundle bundle = intent.getExtras();
-            String message = bundle.getString(THE_REMEMBER_ME_TEXT);
+            String message = bundle.getString(REMEMBER_ME_TO_TEXT);
             Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
             
             sendNotification(context, message);
@@ -32,7 +32,7 @@ public class RememberMeReceiver extends BroadcastReceiver {
     }
     
     private void sendNotification(Context context, String msg) {
-        sendNotification(context, CreateRememberMeActivity.class, msg, context.getString(R.string.remember_me) + " " + msg, 1, true, true);
+        sendNotification(context, CreateRememberMeActivity.class, msg, context.getString(R.string.remember_me_to) + " " + msg, 1, true, true);
     }
     
 

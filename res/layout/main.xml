@@ -2,39 +2,38 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-    <TextView
-        android:id="@+id/label"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/remember_me"/>
     <EditText
-        android:id="@+id/entry"
+        android:id="@+id/rememberMeToTextEdit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@android:drawable/editbox_background"
-        android:layout_below="@id/label"/>
+        android:background="@android:drawable/editbox_background" />
     <Button 
         android:id="@+id/whenButton"
         android:layout_centerHorizontal="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/entry"
-        android:text="@string/when" />
+        android:layout_below="@id/rememberMeToTextEdit"
+        android:text="@string/when"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
     <TextView 
         android:id="@+id/selectedWhen"
         android:layout_centerHorizontal="true"
         android:layout_width="fill_parent"  
         android:layout_height="wrap_content"
-        android:layout_below="@id/whenButton" 
-        android:textSize="25dp" />
+        android:layout_below="@id/whenButton" />
     <Button
         android:id="@+id/okButton"
         android:layout_centerHorizontal="true"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/selectedWhen"
-        android:text="@string/ok" />
+        android:text="@string/ok"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
         
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/remembermemeow1"
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
                android:layout_below="@+id/okButton" android:layout_marginTop="10dp" android:id="@+id/kitty" android:layout_centerHorizontal="true"/>
 </RelativeLayout>
